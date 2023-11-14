@@ -1,0 +1,61 @@
+body {
+  background-image: url(./umc_bg.svg);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.login {
+  width: 50%;
+  background-color: rgba(227, 225, 225, 0.617);
+  text-align: center;
+  border-radius: 10px;
+}
+form {
+  width: 50%;
+  height: 80%;
+  margin: 30px auto;
+}
+.login-input {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 90px;
+  justify-content: space-between;
+  margin: 20px auto;
+}
+input {
+  height: 35px;
+  border: none;
+  border-bottom: 1px solid white;
+  background-color: transparent;
+}
+input::placeholder {
+  color: white;
+}
+.login button {
+  width: 70%;
+  height: 35px;
+  margin: 20px 0;
+  background-color: rgb(73, 73, 73);
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+.link {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+.link a {
+  text-decoration: none;
+  color: rgb(73, 73, 73);
+  padding: 0 10px;
+}
+.v-line {
+  display: inline;
+  border-right: 1.5px solid rgb(73, 73, 73);
+}
