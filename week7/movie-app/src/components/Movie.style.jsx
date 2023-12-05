@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import { StyledDetail } from "./Detail.style.jsx";
-import { Link } from "react-router-dom";
 
 export const StyledInfo = styled.div`
   display: flex;

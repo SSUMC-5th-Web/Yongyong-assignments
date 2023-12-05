@@ -5,7 +5,7 @@ export default function Ad({ adState }) {
   else
     return (
       <div>
-        <img src={umcAd}></img>
+        <img src={umcAd} alt=""></img>
       </div>
     );
 }

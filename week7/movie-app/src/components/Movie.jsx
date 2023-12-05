@@ -13,7 +13,7 @@ function Movie({ coverImg, title, vote_average, overview }) {
 
   return (
     <movie.StyledMovie onClick={onClick}>
-      <img src={coverImg} />
+      <img src={coverImg} alt="" />
       <movie.StyledInfo>
         <movie.StyledMovieSpan>
           {title.length > 7 ? title.slice(0, 7) + "..." : title}

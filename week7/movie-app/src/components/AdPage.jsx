@@ -12,7 +12,7 @@ export default function AdPage() {
   const [adButton, setAdButton] = useState("광고 안 보기");
 
   const handleClick = () => {
-    if (adState == true) {
+    if (adState === true) {
       setAdButton("광고 보기");
       setAdState(false);
     } else {

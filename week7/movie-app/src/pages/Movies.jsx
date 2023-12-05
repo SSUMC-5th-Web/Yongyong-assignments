@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Movie from "../components/Movie";
 import { movies } from "../movieDummy.js";
 import styled from "styled-components";
