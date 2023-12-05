@@ -38,7 +38,7 @@ export default function Login({ isLogined, setLogin }) {
         setLoginButtonAble(true);
       }
     }
-  }, [emailValue, pwValue, emailRegeEx]);
+  }, [emailValue, pwValue]);
   const navigator = useNavigate();
   const onSubmit = () => {
     setLogin(true);
